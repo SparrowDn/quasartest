@@ -4,9 +4,10 @@
 
 <script>
 import { defineComponent } from 'vue'
+import IndexPage from './pages/IndexPage.vue';
 
 export default defineComponent({
   name: 'App',
-  title: "Vue를 재밌게 공부해 봅시다."
+  title: 'pages/IndexPage.vue'
 })
 </script>
