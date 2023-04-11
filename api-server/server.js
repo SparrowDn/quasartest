@@ -12,6 +12,9 @@ let corsOptions = {
 	credential: true, // 사용자 인증이 필요한 리소스(쿠키 ..등) 접근
 };
 app.use(cors(corsOptions));
+//body parser
+app.use(express.json());
+app.use(express.urlencoded({extended : true }));
 
 //autoRouter
 const autoRoute = require('./autoRoute');
