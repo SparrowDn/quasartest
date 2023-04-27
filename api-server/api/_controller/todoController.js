@@ -151,7 +151,7 @@ const todoController = {
     return rows;
   },
 
-  //retet
+  //reset
   reset: async (req) => {
     // truncate
     try {
