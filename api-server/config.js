@@ -13,6 +13,7 @@ const production = {
     },
 }
 const development = {
+  API_SERVER: "http://localhost:4000",
     PORT :4000,
     DB:{
         host:"localhost",

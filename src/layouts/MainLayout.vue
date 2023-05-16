@@ -70,6 +70,12 @@ const linksList = [
     icon: 'home',
     link: '/todo'
   },
+  {
+    title: 'DbTodolist',
+    caption: 'vue + database',
+    icon: 'chat',
+    link: '/dbtodo'
+  }
 
   // {
   //   title: 'Docs',
